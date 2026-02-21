@@ -15,7 +15,7 @@ Bob translation plugin for self-hosted [MTranServer](https://github.com/xxnuo/MT
 ```bash
 git clone https://github.com/tsai41/bob-plugin-mtranserver.git
 cd bob-plugin-mtranserver
-zip -r mtranserver.bobplugin info.json src/
+zip -r mtranserver.bobplugin info.json main.js lang.js
 open mtranserver.bobplugin
 ```
 
