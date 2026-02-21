@@ -26,13 +26,24 @@ open mtranserver.bobplugin
 | API URL   | MTranServer base URL (no trailing /) | `http://127.0.0.1:8989`  |
 | Token     | Optional auth token                  | (empty)                   |
 
-## API Endpoints Used
+## MTranServer API Endpoints Used by This Plugin
+
+These are **server-side endpoints** that the Bob plugin calls on your MTranServer instance.
 
 | Endpoint       | Method | Purpose                    |
 |----------------|--------|----------------------------|
 | `/health`      | GET    | Validate server connection |
 | `/languages`   | GET    | Discover supported langs   |
 | `/translate`   | POST   | Translate text             |
+
+## Bob Plugin Contract
+
+This plugin exposes the standard Bob plugin entry functions:
+
+- `supportLanguages()`
+- `translate(query, completion)`
+- `pluginValidate(completion)`
+- `pluginTimeoutInterval()`
 
 ### `/translate` request body
 
