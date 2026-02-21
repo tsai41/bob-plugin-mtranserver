@@ -1,0 +1,28 @@
+{
+  "identifier": "community.mtranserver.translate",
+  "version": "0.2.0",
+  "category": "translate",
+  "name": "MTranServer Translate",
+  "summary": "Bob translation plugin for self-hosted MTranServer.",
+  "icon": "",
+  "author": "tsai41",
+  "homepage": "https://github.com/tsai41/bob-plugin-mtranserver",
+  "appcast": "",
+  "minBobVersion": "1.8.0",
+  "options": [
+    {
+      "identifier": "apiUrl",
+      "type": "text",
+      "title": "API URL",
+      "defaultValue": "http://127.0.0.1:8989",
+      "desc": "MTranServer base URL (no trailing slash). Example: http://192.168.1.100:8989"
+    },
+    {
+      "identifier": "apiToken",
+      "type": "text",
+      "title": "Token (optional)",
+      "defaultValue": "",
+      "desc": "If your MTranServer requires a token, enter it here."
+    }
+  ]
+}

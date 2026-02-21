@@ -1,0 +1,5 @@
+.DS_Store
+*.bobplugin
+node_modules/
+.vscode/
+.idea/
