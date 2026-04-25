@@ -3,3 +3,6 @@
 node_modules/
 .vscode/
 .idea/
+
+# Unrelated sibling project kept locally
+vscode-comment-translator/
