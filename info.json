@@ -7,7 +7,7 @@
   "icon": "",
   "author": "tsai41",
   "homepage": "https://github.com/tsai41/bob-plugin-mtranserver",
-  "appcast": "",
+  "appcast": "https://raw.githubusercontent.com/tsai41/bob-plugin-mtranserver/main/appcast.json",
   "minBobVersion": "1.8.0",
   "options": [
     {

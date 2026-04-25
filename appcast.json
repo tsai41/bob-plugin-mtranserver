@@ -1,0 +1,11 @@
+{
+  "identifier": "community.mtranserver.translate",
+  "versions": [
+    {
+      "version": "0.2.0",
+      "desc": "Initial public release: rewritten as Bob MTranServer plugin.",
+      "url": "https://github.com/tsai41/bob-plugin-mtranserver/releases/download/v0.2.0/mtranserver-v0.2.0.bobplugin",
+      "minBobVersion": "1.8.0"
+    }
+  ]
+}
